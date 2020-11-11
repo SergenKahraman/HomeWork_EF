@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOmeWork06112020.EF", "HOmeWork06112020.EF\HOmeWork06112020.EF.csproj", "{ABEB281D-0144-4E07-A46D-4A72B519644F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomerWork_EF.Data", "HomerWork_EF.Data\HomerWork_EF.Data.csproj", "{5DD0DCBC-DE30-450A-9657-8BC1782594C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABEB281D-0144-4E07-A46D-4A72B519644F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABEB281D-0144-4E07-A46D-4A72B519644F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABEB281D-0144-4E07-A46D-4A72B519644F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABEB281D-0144-4E07-A46D-4A72B519644F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD0DCBC-DE30-450A-9657-8BC1782594C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD0DCBC-DE30-450A-9657-8BC1782594C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD0DCBC-DE30-450A-9657-8BC1782594C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD0DCBC-DE30-450A-9657-8BC1782594C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98DB0B26-8DAC-41BD-842E-BF91BD1887EB}
+	EndGlobalSection
+EndGlobal

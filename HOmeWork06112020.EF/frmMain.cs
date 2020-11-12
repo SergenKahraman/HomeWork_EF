@@ -151,7 +151,11 @@ namespace HOmeWork06112020.EF
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit(); //TODO: buraları geliştir ve menutoolstripti düzenlemeye çalış, içeriği arttır
+            var result = MessageBox.Show("Programı Kapatmak İstediğinize Emin misiniz?", "NorthwindCart", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit(); 
+            }
         }
 
         private void msbOrders_Click(object sender, EventArgs e)
